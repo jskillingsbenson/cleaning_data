@@ -1,4 +1,8 @@
-CodeBook.md
+the R code first installs packages you'll need for the code to run.
+
+then it downloads files from UCI on electronic health wearables for both tests and trains. 
+
+there are multiple features for each and also multiple activities.
 
 
 Data Set Information:
@@ -22,3 +26,11 @@ For each record in the dataset it is provided:
 - A 561-feature vector with time and frequency domain variables.
 - Its activity label.
 - An identifier of the subject who carried out the experiment.
+
+
+
+the r code takes this data and creates multiple frames. then it puts all of those together into one. 
+then we clean it up so the labels are better. 
+then we subset just two data points (std and mean) and look at those on their own. 
+
+lastly, the means/std averages are extracted to a new file. 
